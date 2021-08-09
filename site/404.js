@@ -19,8 +19,7 @@ async function getJSON(filename) {
       const date = projects[project]["date"];
       const img = projects[project]["img"];
       const releasePost = projects[project]["release-post"];
-      // const sourceCode = projects[project]["source-code"];
-      const sourceCode = `https://github.com/Blog-CSS/Blog-CSS.github.io/blob/main/${name}|test`
+      const sourceCode = `https://github.com/Blog-CSS/Blog-CSS.github.io/blob/main/${name}`
 
       $("head").append(`
         <link rel="stylesheet" href="/site/site.css" />
